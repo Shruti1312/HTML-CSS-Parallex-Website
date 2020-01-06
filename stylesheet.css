@@ -1,0 +1,421 @@
+﻿body, html {
+  height: 100%;
+  width: 1249;
+  margin:0;
+  font-family: 'Raleway';font-size: 22px;
+  overflow-x:hidden;
+}
+
+.main{
+  height:100%;
+  width:1249px;
+}
+
+.center{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font: 16px "Lato", sans-serif;
+  color: #fff;
+  font-weight:600px;
+}
+
+
+h1 {
+  color: #48267C;
+  font: 49px "Lato", sans-serif;
+  font-weight:bold;
+  margin:0px;
+  padding:0px;
+  opacity:.90;
+}
+
+h2 {
+  color: #48267C;
+  font: 36px "Lato", sans-serif;
+  font-weight:800px;
+  margin:0px;
+  padding:0px;
+  opacity:.90;
+}
+
+h4 {
+  color: #48267C;
+  font: 23px "Lato", sans-serif;
+  font-weight:800px;
+  margin:0px;
+  padding:0px;
+  opacity:.90;
+}
+
+h5 {
+  color: #48267C;
+  font: 26px "Eagle Lake";
+  font-weight:400px;
+  margin:0px;
+  padding:0px;
+  opacity:.80;
+}
+
+h6 {
+  color: #fff;
+  font: 30px "Lato", sans-serif;
+  font-weight:bold;
+  margin:0px;
+  padding:10px;
+  opacity:.95;
+}
+
+h7 {
+  color: #fff;
+  font: 18px "Lato", sans-serif;
+  font-weight:515;
+  left: 20px;
+  margin:0px;
+  padding:10px;
+  opacity:.95;
+}
+
+
+/******* Navigation Bar Styles ********/
+.navbar {
+  height:80px; 
+  width:1249px;
+  position:fixed;
+  top:0; 
+  z-index:5000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 500px;
+  margin-left:320px;
+  overflow: hidden;
+  background-color:white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #A5A6AB;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  text-transform: uppercase; 
+  font: 16px "Lato", sans-serif;
+  background-color:white;
+  text-shadow: .5px .5px;
+  opacity:.70;
+}
+
+li a:hover:not(.active) {
+   color:#48267c;
+}
+
+.active {
+   color:#48267c;
+   font-weight:700px;
+  }
+
+ #left-top { 
+    float:left;  
+    width:30%; 
+    height:80px; 
+	background-color:white;
+} 
+
+#right-top{ 
+   float:right; 
+   width:70%;  
+   height:80px; 
+   background-color:white;
+}
+
+
+ /******* Parallex Effect ********/
+.bgimg-1, .bgimg-2{
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:fill;
+  background-position:left top;
+}
+
+.bgimg-1 {
+  background-image: url("images/coffee2.jpg");
+  display:flex;
+  align-items: center; 
+  justify-content: center; 
+  height:1050px;
+  width:1249px;
+}
+
+.bgimg-2 {
+  background-image: url("images/coffee1.jpg");
+  height:1080px;
+  width:1249px;
+}
+
+.parallex-1{
+  width: 1249px;
+  overflow: hidden;
+}
+
+/******* Profile Section ********/
+.middle-face{
+	height:330px;
+	width:600px;
+	left:0%;
+	top:0%;
+    position:relative
+}
+
+.profile-photo{
+    padding:48px 0px 48px 40px; 
+    height:225px;
+    width:181px;
+	background-position:center center;
+}
+
+.intro {
+  position: absolute;
+  margin-top:57px;
+  color: #48267C;
+  margin-left:31px;
+  margin-top:48px;
+}
+
+.title {
+  font: 26px "Eagle Lake";
+  color: #48267C;
+  font-style:oblique;
+  text-shadow: .5px .5px;
+  opacity:.80;
+}
+
+.topspace{
+	margin-top:48px;
+}
+
+.bottomspace{
+   margin-bottom:20px;
+}
+
+#left-intro { 
+    float:left;  
+    width:36%; 
+    height:330px; 
+	background-color:white;
+} 
+
+#right-intro{ 
+   float:right; 
+   width:64%;  
+   height:330px; 
+   background-color:white;
+} 
+
+/******* Projects Section ********/
+
+.middle-projects{
+	height:650px; 
+	width:1249px; 
+	align-items:center;
+}
+
+.project-1{
+	height:50px;
+	width:100%;
+	margin-left:40px;
+	top:45%;
+	position:relative;
+}
+
+.project-2{
+	height:50px;
+	width:100%;
+	margin-left:40px;
+	top:45%;
+	position:relative;
+}
+
+.project-3{
+	height:50px;
+	width:100%;
+	margin-left:40px;
+	top:45%;
+	position:relative;
+}
+
+ #leftbox { 
+    float:left;  
+    width:33%; 
+    height:650px; 
+	background-color:#5098BA;
+} 
+
+#middlebox{ 
+    float:left;  
+    width:34%;  
+    height:650px; 
+	background-color:#48267C;
+} 
+
+#rightbox{ 
+    float:right; 
+    width:33%;  
+    height:650px;
+	background-color:#9A69C2;
+} 
+
+/******* About Me Section ********/
+.about-container{
+	height:530px; 
+	width:1249px;
+}
+
+.about-setting{
+	background-color:#48267C;
+	height:230px; 
+	width:1009px; 
+	padding:60px 120px 240px 120px; 
+	top:400px;
+	position:relative;
+}
+
+.about{
+  color: #ffff;
+  font: 50px "Lato", sans-serif;
+  font-weight:400;
+  text-align:center;
+  text-align:justify;
+  text-align:justify;
+  position: absolute;
+  opacity:.95;
+  height:220px;
+  margin-top:20px;
+  
+}
+
+.subheader-1{
+  color: #ffff;
+  font: 16px "Lato", sans-serif;
+  font-weight:bold;
+ 
+}
+
+/******* Contact Section ********/
+.contact-container{
+	background-color:white;
+	height:590px; 
+	width:1249px; 
+	align-items: center;
+}
+
+.contact-setting{
+	background-color:white;
+	height:370px; 
+	width:1000px; 
+	padding:125px 150px 100px 124px; 
+	top:400px;
+	position:relative;
+}
+
+#left-contact { 
+   float:left;  
+   width:50%; 
+   height:350px; 
+   background-color:white;
+} 
+
+#right-contact{ 
+   float:right; 
+   width:50%;  
+   height:350px; 
+   background-color:white;
+} 
+
+.subheader-2{
+  color: #48267C;
+  font: 17px "Lato", sans-serif;
+  opacity:.80;
+  font-weight:bold;
+  text-shadow: .5px .5px;
+}
+
+.contact-top{
+  color: #48267C;
+  font-size: 50px;
+  font-style: 'Raleway', sans-serif;
+  top:10px;
+  position:relative;
+  margin-left:5px;
+  font-weight:300;
+  opacity:.90;
+  text-shadow: .5px .5px;
+}
+
+.contact-middle{
+  color: #48267C;
+  font-size: 15px;
+  font-style: 'Raleway', sans-serif;
+  top:15px;
+  position:relative;
+  margin-left:5px;
+  opacity:.80;
+  font-weight:200;
+  text-shadow: .5px .5px;
+}
+
+.contact-footer{
+  color: #48267C;
+  font-size: 15px;
+  font-style: 'Raleway', sans-serif;
+  top:130px;
+  position:relative;
+  margin-left:5px;
+  opacity:.80;
+  text-shadow: .5px .5px;
+}
+
+input[type=text], textarea {
+  width: 474px;
+  height:10px;
+  padding: 12px;
+  border: 1px solid #6a3cb0;
+  margin-top: 3px;
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3); 
+  font-style: "Raleway", sans-serif;
+  }
+
+input[type=text]::placeholder, textarea::placeholder {
+  font-size:14px;
+  font-family: "Raleway", sans-serif;
+  color: #6a3cb0;
+  opacity:.8;
+  font-weight:500;
+  text-shadow: .5px .5px;
+}
+
+input[type=submit] {
+  background-color: #48267C;
+  color: white;
+  padding: 6px 22px;
+  cursor: pointer;
+  float:right;
+  font-style: oblique;
+  font-size:18px;
+  font-family:"Tienne", sans-serif;
+  border:none;
+  margin-top:5px;
+  font-weight:100;
+}
