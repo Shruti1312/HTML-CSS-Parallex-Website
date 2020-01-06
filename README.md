@@ -8,5 +8,5 @@
  </ul>
 </h3>
 
-<h3>Note: Please refer screenshots for preview of the website </h3>
+<h4>Note: Please refer screenshots for preview of the website </h4>
  
